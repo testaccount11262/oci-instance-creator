@@ -2,14 +2,14 @@
 
 LOG_FILE="$HOME/oci-instance.log"
 SUCCESS_FLAG="$HOME/.oci-instance-created"
-DISCORD_WEBHOOK="https://discord.com/api/webhooks/xxxxx"  # FIXME: 본인 웹훅 URL로 변경
+DISCORD_WEBHOOK="https://discord.com/api/webhooks/1529409099802869852/WzHsVqhUaHtezyy50jJv3Fo-5zMEkRGncpttr6ZlJIxKfbRCyGAlyxH8kExO4IkS7Hh6"  # FIXME: 본인 웹훅 URL로 변경
 
 # FIXME: 설정값 - 본인 환경에 맞게 수정
-COMPARTMENT_ID="ocid1.tenancy.oc1..xxxxx"
+COMPARTMENT_ID="ocid1.tenancy.oc1..aaaaaaaaewtn2nxu7yod6m44v6mmmebqj5nwbey47xq7sfn6xp3mqpxhr62q"
 # FIXME: 접두사(qibq)는 테넌시마다 다름! 본인 값으로 변경 → 확인: oci iam availability-domain list --output table
-AVAILABILITY_DOMAIN="qibq:AP-CHUNCHEON-1-AD-1"
-SUBNET_ID="ocid1.subnet.oc1..xxxxx"
-IMAGE_ID="ocid1.image.oc1..xxxxx"
+AVAILABILITY_DOMAIN="cBZP:AP-OSAKA-1-AD-1"
+SUBNET_ID="ocid1.subnet.oc1.ap-osaka-1.aaaaaaaajupy7iucjdggwenum4wp5mhjqzd7fuwstlq7kzn7fyxvs2uca72q"
+IMAGE_ID="ocid1.image.oc1.ap-osaka-1.aaaaaaaalaa2bl3zpiovsaamnsd5yxbalbmsu2wtgdqhavfbofiyybo4ug4a"
 INSTANCE_NAME="my-instance"
 SSH_KEY_FILE="$HOME/.ssh/oci_key.pub"  # SSH 공개키 파일 경로
 
